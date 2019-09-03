@@ -9,8 +9,8 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 @WebServlet("/login")
-public class AdministratorServlet extends HttpServlet {
-    public AdministratorServlet(){
+public class AdServlet extends HttpServlet {
+    public AdServlet(){
         super();
     }
     @Override
